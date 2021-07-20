@@ -1,0 +1,48 @@
+    1  cd git-basic-excercise
+    2  pwd
+    3  cd umuzi-work/git-basic-excercise
+    4  cd umuzi-work/git-basic-excercise
+    5  mkdir umuzi-work
+    6  cd umuzi-work
+    7  cd umuzi
+    8  cd Umuzi
+    9  cd ~Documents/Umuzi
+   10  mkdir git-basic-excercise
+   11  cd git-basic-excercise
+   12  ls -a
+   13  git init
+   14  ls -a
+   15  touch README.md
+   16  git add
+   17  git commit -m "initial commit"
+   18  git add README.md
+   19  git commit -m "initial commit"
+   20  git log
+   21  nano README.md
+   22  git add README.md
+   23  git commit -m "second commit"
+   24  git log
+   25  nano README.md
+   26  git add README.md
+   27  git commit -m "third commit"
+   28  git log
+   29  cat README.md
+   30  git checkout 318bd205511ca965b12079302c87bd7ebf80d2fb
+   31  cat README.md
+   32  git checkout master
+   33  cat README.md
+   34  git branch milkshake-flavours
+   35  checkout milkshake-flavours
+   36  git checkout milkshake-flavours
+   37  nano milkshakes.md
+   38  git status
+   39  git commit -m "added intial flavours"
+   40  git add milkshakes.md
+   41  git commit -m "added initial flavours"
+   42  git log
+   43  git checkout master
+   44  git branch history
+   45  git checkout history
+   46  git log
+   47  git branch
+   48  history > history.txt
